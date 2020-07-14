@@ -1,3 +1,3 @@
 # A-Simple-BMI-Calculator-using-flask
 
-This is a simple BMI calculator built using "flask", which is a web application framework written in python
+This is a simple BMI calculator built using "flask", which is a web application framework written in python. Languages used includes HTML, Python and CSS.
