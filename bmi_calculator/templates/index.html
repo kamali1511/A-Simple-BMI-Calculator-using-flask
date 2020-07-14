@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+
+	<title>BMI Calculator</title>
+</head>
+
+<body>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+	<h1 id="heading">Kammy's BMI Calculator</h1>
+
+	<section>
+		<h3>What is BMI?!</h3>
+		<p>
+		Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.	
+		</p>
+		<p>
+			A body mass index in the low range signals that you could be malnourished. Maybe your body isn’t properly absorbing nutrients or maybe you’re just not getting enough calories to support your activity level. Conversely, having a BMI on the higher end alerts your physician that your risks of heart disease, diabetes and certain cancers are higher than someone with a normal BMI. 
+		</p>
+
+		<p>
+			Now let's check your BMI
+		</p>
+		
+    </section>
+	<section id="formy">
+	<form class="pure-form" method="POST" action="/">	
+		Your Name: 
+		<input type="text" name="name" placeholder="eg.harry"> <br> <br>
+		Your Age: &nbsp; &nbsp; 
+		<input type="number" name="age"> <br> <br>
+		Your Weight: 
+		<input type="number" name="weight" placeholder="in Kilograms"> <br><br>
+		Your Height: 
+		<input type="number" name="height" placeholder="in Centimetres"> <br> <br>
+		<button type="submit" class="pure-button pure-button-primary" value="submit">Calculate</button>
+		</form>
+	</section>
+    <br>
+    <div>
+    	{% if bmi %}
+    	<p id="para">Your Body Mass Index is {{ bmi }}</p>
+
+    	<section>
+    	<h3>BMI Categorization</h3>
+    	<p>
+    		The BMI statistical categories below are based on BMI scores and apply to adults of age 20 years and upwards. The World Health Organisation (WHO) regards a healthy adult BMI to be between 18.5 and 25.
+    	</p>
+
+    	<table border="1">
+    		<tr><th>BMI</th><th>BMI Category</th></tr>
+    		<tr><td>Less the 15</td><td>Very Severely Underweight</td></tr>
+    		<tr><td>Between 15 and 16</td><td>Severely Underweight</td></tr>
+    		<tr><td>Between 16 and 18.5</td><td>Underweight</td></tr>
+    		<tr><td>Between 18.5 and 25</td><td>Normal</td></tr>
+    		<tr><td>Between 25 and 30</td><td>Overweight</td></tr>
+    		<tr><td>Between 30 and 35</td><td>moderately obese</td></tr>
+    		<tr><td>Between 35 and 40</td><td>Severely Obese</td></tr>
+    		<tr><td>Over 40</td><td>Very Severely Obese</td></tr>
+    	</table>
+    </section>
+
+    <h2>Thanks For Visiting My Website!</h2>
+
+    	{% endif %}
+    </div>
+
+    
+</body>

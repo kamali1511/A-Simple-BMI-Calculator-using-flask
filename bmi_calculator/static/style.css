@@ -1,0 +1,14 @@
+body
+{ 
+    font-family: times new roman;
+    font-size: 20px;
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solidbackgrounds.com%2Fimages%2F2560x1440%2F2560x1440-mustard-solid-color-background.jpg&f=1&nofb=1");
+}
+
+#heading
+{
+	border-style: inset;
+	font-family: arial;
+	font-size: 30px;
+	text-align: center;
+}
