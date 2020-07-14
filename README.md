@@ -7,3 +7,9 @@ This is a simple BMI calculator built using "flask", which is a web application 
 2. HTML
 3. CSS
 
+# Snapshots
+![](snapshots/Screenshot(57).png)
+
+![](snapshots/Screenshot(58).png)
+
+![](snapshots/Screenshot(59).png)
