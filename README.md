@@ -8,8 +8,8 @@ This is a simple BMI calculator built using "flask", which is a web application 
 3. CSS
 
 # Snapshots
-![](snapshots/Screenshot(57).png)
+![alt text](https://github.com/kamali1511/BMI-Calculator-using-flask/blob/master/snapshots/Screenshot%20(57).png?raw=true)
 
-![](snapshots/Screenshot(58).png)
+![alt text](https://github.com/kamali1511/BMI-Calculator-using-flask/blob/master/snapshots/Screenshot%20(58).png?raw=true)
 
-![](snapshots/Screenshot(59).png)
+![alt text](https://github.com/kamali1511/BMI-Calculator-using-flask/blob/master/snapshots/Screenshot%20(59).png?raw=true)
