@@ -2,7 +2,7 @@
 
 This is a simple BMI calculator built using "flask", which is a web application framework written in python. Flask is based on the werkzeg WSGI toolkit and the jinja2 template engine.
 
-# languages used
+# Languages used
 1. Python
 2. HTML
 3. CSS
